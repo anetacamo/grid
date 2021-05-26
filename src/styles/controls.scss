@@ -1,0 +1,26 @@
+.controls {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  text-align: right;
+  background-color: white;
+  .controls-off {
+    display: none;
+  }
+  h6 {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+button {
+  background-color: var(--three);
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  margin-left: 4px;
+  min-width: 25px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,75 @@
+/* grids */
+/*  */
+.grid-holder {
+  margin: auto;
+  position: relative;
+  h1 {
+    text-align: center;
+  }
+  .tiny {
+    font-weight: 800;
+  }
+  .main-grid {
+    position: relative;
+    border-top: 0 !important;
+    border-left: 0 !important;
+  }
+}
+.grid-bg {
+  padding: 24px;
+  overflow: scroll;
+  height: -webkit-fill-available;
+  .flex {
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+  }
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .flex {
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+  }
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .flex,
+  .square,
+  .square-larger {
+    border-style: solid;
+    box-sizing: border-box;
+  }
+  .square {
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+  }
+}
+
+/* big square */
+.grid-larger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none !important;
+}
+
+.square-larger {
+  background-color: white;
+  position: relative;
+  box-shadow: lightgray 8px 8px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  .tiny {
+    position: absolute;
+    top: -20px;
+  }
+}

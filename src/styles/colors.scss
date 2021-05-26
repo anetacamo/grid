@@ -1,0 +1,18 @@
+:root {
+  --primary: blueviolet;
+  --secondary: #46f2c3;
+  --three: #ff2da4;
+  --white: #ffffff;
+}
+$secondary: #46f2c3;
+
+.blueviolet {
+  color: var(--primary);
+}
+.bg-blueviolet {
+  background-color: var(--primary);
+}
+
+.gray {
+  color: darkgray;
+}
